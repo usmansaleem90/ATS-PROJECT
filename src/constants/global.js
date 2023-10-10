@@ -3,6 +3,7 @@ export const SideBarItems = {
       {
         title: "User Managment",
         icon: "mdi-account-settings",
+        
       },
       {
           title: "Department",
@@ -13,8 +14,11 @@ export const SideBarItems = {
         icon: "mdi-format-list-bulleted",
       },
       {
-        title: "Teams",
-        icon: "mdi-account-multiple",
+        title: "Feedback",
+        icon: "mdi-comment-alert",
+        attrs:{
+          to:"/UserManagement"
+        } 
       },
     ],
   };
