@@ -10,7 +10,7 @@
       <SideBar />
     </v-navigation-drawer>
 
-    <!-- <v-app-bar elevation="1">
+    <v-app-bar elevation="1">
       <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
       <v-app-bar-title>Application</v-app-bar-title>
       <v-spacer></v-spacer>
@@ -33,12 +33,12 @@
           </v-card>
         </v-menu>
       </v-row>
-    </v-app-bar> -->
+    </v-app-bar>
 
     <!-- <v-main>
       <router-view></router-view>
     </v-main> -->
-  <!-- </v-app> -->
+    <!-- </v-app> -->
 </template>
 
 <script setup>
